@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+<link type="text/css" href="Css/estilos.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+<h1>ENVÍANOS TU MENSAJE</h1>
+<div id="formulario">
+<form action="validar.php" method="POST">
+<tr>
+	<label for="nombre" id="tituloNombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" value="" placeholder="Name"/>
+
+	<label for="apellido" id="tituloApellido">Apellido</label>
+    <input type="text" id="apellido" name="apellido" value=""  placeholder="Last name"/>
+  </tr>
+  <tr>  
+    <label for="email" id="tituloEmail">Correo</label>
+    <input type="email" id="email" name="email" value=""  placeholder="Email"/>
+
+    <label for="password" id="tituloPassword">Contraseña</label>
+    <input type="password" id="password" name="password" value=""  placeholder="Password"/>
+  </tr>
+  <tr>
+    	<label for="mensaje" id="tituloMensaje">Mensaje</label>
+    	<textarea name="mensaje" id="mensaje" cols="34" rows="5" placeholder="Escriba aquí su mensaje"></textarea>
+    </tr>
+<div id="estado">
+<tr>
+	<label for="Estado civil" id="tituloEstado">Estado civil</label>
+    <input type="radio" name="estado_civil" value="soltero" class="estado"/> Soltero<br/>
+    <input type="radio" name="estado_civil" value="casado" class="estado"/> Casado<br/>
+    <input type="radio" name="estado_civil" value="divorciado" class="estado"/> Divorciado<br/>
+</tr>
+</div>
+
+
+<div id="nacionalidad">
+<tr>
+	<label for="nacionalidad" id="tituloNacionalidad">Nacionalidad</label>
+    <select name="nacionalidad" id="nacionalidad">
+    	<option value="frances" selected="selected">Frances</option>
+        <option value="colombiano">Colombiano</option>
+		<option value="colombiano">Argentino</option>
+        <option value="colombiano">Italiano</option>
+    </select>
+</tr>
+</div>
+
+
+<div id="hobbies">
+<tr>
+	<label for="pasatiempos" id="tituloPasatiempos">Pasatiempos</label>
+<div id="listaHobbies">
+    <input type="checkbox" name="pasatiempos[]" value="leer" id="Leer"/> Leer<br/>
+    <input type="checkbox" name="pasatiempos[]" value="cine" id="Cine"/> Cine<br/>
+    <input type="checkbox" name="pasatiempos[]" value="juegos" id="Videojuegos"/> Videojuegos<br/>
+    </div>
+</tr>
+</div>
+
+<div id="cajaEnviar"> <input type="submit" name="Submit" value="Enviar" ></div>
+ </form>
+ 
+ <div id="redes">
+ 	<a href="https://www.facebook.com/zoosantafe?fref=ts"><div class="facebook"></div></a>
+    <a href="https://twitter.com/zoosantafe"><div class="twitter"></div></a>
+    <a href="https://www.youtube.com/user/ZooSantaFe"><div class="youtube"></div></a>
+ </div>
+ 
+<div id="info">
+ <img src="Img/img_01.jpg"/><p>megiraldo77@misena.edu.co</p>
+ <img src="Img/img_02.jpg"/><p>2360011</p>
+</div>
+<div id="t1"></div>
+<div id="t2"></div>
+<div id="t3"></div>
+<div id="t4"></div>
+<div id="t5"></div>
+<div id="t6"></div>
+<div id="t7"></div>
+<div id="t8"></div>
+<div id="t9"></div>
+<div id="t10"></div>
+
+</div>
+
+</body>
+</html>

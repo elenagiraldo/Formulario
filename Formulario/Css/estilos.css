@@ -1,0 +1,404 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+	}
+	
+	h1{
+	width:450px;
+	height:50px;
+	margin:0 auto;
+	position: relative;
+	color: #fff;
+	text-align:center;
+	line-height: 50px;
+	font-size: 19px;
+	background:#00437A;
+	box-shadow: 
+		0px 0px 0px 1px rgba(155,155,155,0.3), 
+		1px 0px 0px 0px rgba(255,255,255,0.9) inset, 
+		0px 2px 2px rgba(0,0,0,0.1);
+	z-index:2;
+	}
+
+#formulario {
+	
+	position:relative;
+	width:400px;
+	height:650px;
+	margin: 0 auto;
+	background:#FFFFFF;
+	border: 1px solid #A8A8A8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color:#fff;
+	margin-top:-3px;
+	z-index:1;
+	}
+	
+#nombre{
+  width:140px;
+  background:#fff;
+  border:1px solid #ccc;
+  padding:10px;
+  font-size:95%;
+  color:#555;
+  margin-left:13px;
+  position:absolute;
+  top:65px;
+  
+}
+
+#apellido{
+  width:140px;
+  background:#fff;
+  border:1px solid #ccc;
+  padding:10px;
+  font-size:95%;
+  color:#555;
+  position:absolute;
+  top:65px;
+  left:225px;
+}
+
+#email{
+  width:140px;
+  background:#fff;
+  border:1px solid #ccc;
+  padding:10px;
+  font-size:95%;
+  color:#555;
+  position:absolute;
+  top:163px;
+  left:13px;
+  }
+
+#password{
+  width:140px;
+  background:#fff;
+  border:1px solid #ccc;
+  padding:10px;
+  font-size:95%;
+  color:#555;
+  position:absolute;
+  top:160px;
+  left:225px;
+}
+
+#mensaje{
+  width:180px;
+  height:120px;
+  background:#fff;
+  border:1px solid #ccc;
+  padding:10px;
+  font-size:95%;
+  color:#555;
+  position:absolute;
+  top:258px;
+  left:13px;
+}
+
+#tituloNombre {
+	width:200px;
+	height:30px;
+	line-height:30px;
+	background:#00437A;
+	text-align:center;
+	position:absolute;
+	left:-25px;
+	top:25px;
+	}
+
+#tituloApellido {
+	width:200px;
+	height:30px;
+	line-height:30px;
+	background:#00437A;
+	text-align:center;
+	position:absolute;
+	left:225px;
+	top:25px;
+	}
+
+#tituloEmail {
+	width:200px;
+	height:30px;
+	line-height:30px;
+	background:#00437A;
+	text-align:center;
+	position:absolute;
+	left:-25px;
+	top: 120px;
+	}
+	
+#tituloPassword {
+	width:200px;
+	height:30px;
+	line-height:30px;
+	background:#00437A;
+	text-align:center;
+	position:absolute;
+	left:225px;
+	top: 120px;
+	}
+	
+#tituloMensaje {
+	width:200px;
+	height:30px;
+	line-height:30px;
+	background:#00437A;
+	text-align:center;
+	position:absolute;
+	left:-25px;
+	top: 218px;
+	}
+	
+#tituloEstado {
+	width:200px;
+	height:30px;
+	line-height:30px;
+	background:#00437A;
+	text-align:center;
+	position:absolute;
+	left:225px;
+	top: 218px;
+	color:rgba(255,255,255,1);
+	}
+	
+#tituloNacionalidad {
+	width:200px;
+	height:30px;
+	line-height:30px;
+	background:#00437A;
+	text-align:center;
+	position:absolute;
+	left:105px;
+	top: 0px;
+	color:rgba(255,255,255,1);
+	}
+
+#tituloPasatiempos {
+	width:200px;
+	height:30px;
+	line-height:30px;
+	background:#00437A;
+	text-align:center;
+	position:absolute;
+	left:-38px;
+	color:rgba(255,255,255,1);
+	}
+	
+#t1 {
+	width:0px;
+	height:0px;
+	position:absolute;
+	border-top: 15px solid rgba(1,44,73,1.00); 
+	border-left: 25px solid transparent;
+	left:-25px;
+	top:55px;
+	z-index:-1;
+	}
+	
+#t2 {
+	width:0px;
+	height:0px;
+	position:absolute;
+	border-top: 15px solid rgba(1,44,73,1.00); 
+	border-left: 25px solid transparent;
+	left:-25px;
+	top:150px;
+	}
+	
+#t3 {
+	width:0px;
+	height:0px;
+	position:absolute;
+	border-top: 18px solid rgba(9,54,87,1.00); 
+	border-left: 25px solid transparent;
+	left:-25px;
+	top:2px;
+	}
+	
+#t4 {
+	width:0px;
+	height:0px;
+	position:absolute;
+	border-top: 15px solid rgba(1,44,73,1.00);
+	border-right: 25px solid transparent;
+	left:400px;
+	top:55px;
+	}
+	
+#t5 {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-top: 15px solid rgba(1,44,73,1.00);
+	border-right: 25px solid transparent;
+	left: 400px;
+	top: 149px;
+	}
+	
+#t6 {
+	width:0px;
+	height:0px;
+	position:absolute;
+	border-top: 18px solid rgba(1,44,73,1.00); 
+	border-right: 25px solid transparent;
+	left:400px;
+	top:2px;
+	}
+	
+#t7 {
+	width:0px;
+	height:0px;
+	position:absolute;
+	border-top: 15px solid rgba(1,44,73,1.00); 
+	border-left: 25px solid transparent;
+	left:-25px;
+	top:248px;
+	}
+	
+#t8 {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-top: 15px solid rgba(1,44,73,1.00);
+	border-right: 25px solid transparent;
+	left: 400px;
+	top: 248px;
+	}
+	
+#t9 {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-top: 15px solid rgba(1,44,73,1.00);
+	border-right: 25px solid transparent;
+	left: 400px;
+	top: 365px;
+	}
+	
+#t10 {
+	width:0px;
+	height:0px;
+	position:absolute;
+	border-top: 15px solid rgba(1,44,73,1.00); 
+	border-left: 25px solid transparent;
+	left:-25px;
+	top:445px;
+	}
+	
+#cajaEnviar {
+	position:absolute;
+	top:420px;
+	left:287px;
+	width:100px;
+	}
+	
+input[type="submit"]{
+  width:100%;
+  height:33px;
+  background:#00437A;
+  border:0;
+  top:1000px;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+  background:#2288bb;
+}
+
+
+#redes{
+	position:absolute;
+	width:180px;
+	height:50px;
+	margin-top:252px;
+	margin-left:217px;
+	}
+	
+.facebook{
+	background-image:url(../Img/facebook.jpg);
+	width:50px;
+	height:50px;
+	float:left;
+	}
+	
+.twitter{
+	background-image:url(../Img/twitter.jpg);
+	width:50px;
+	height:50px;
+	margin-left:10px;
+	float:left;
+	}
+	
+.youtube{
+	background-image:url(../Img/youtube.jpg);
+	width:50px;
+	height:50px;
+	margin-left:10px;
+	float:left;
+	}
+	
+#info{
+	position:absolute;
+	width:250px;
+	color:#0E006A;
+	text-align:left;
+	margin-left:13px;
+	margin-top:220px;
+	}
+
+p{
+	margin-left:40px;
+	margin-top:-20px;
+	}
+	
+img{
+	margin-top:3px;
+	}
+
+
+#estado{
+	width:150px;
+	margin-top:258px;
+	color:rgba(0,0,0,1);
+	margin-left:250px;
+	}
+	
+#nacionalidad{
+	position:absolute;
+	width:150px;
+	margin-top:20px;
+	margin-left:120px;
+	padding-top:20px;
+	}
+	
+#hobbies{
+	position:absolute;
+	width:150px;
+	margin-left:13px;
+	color:rgba(0,0,0,1);
+	margin-top:100px;
+	}
+	
+#listaHobbies{
+	position:absolute;
+	width:150px;
+	color:rgba(0,0,0,1);
+	margin-top:43px;
+	}
+
+
+	
+
+	
